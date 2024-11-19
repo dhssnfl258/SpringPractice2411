@@ -6,3 +6,58 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+
+# Maven-specific files
+target/
+
+# Gradle-specific files
+.gradle/
+build/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.war
+*.ear
+*.jar
+
+# Git-specific files
+*.swp
+*~
+# Ignore generated documentation
+docs/
+
+# Spring Boot-specific files
+*.properties
+*.yml
+.env
+*.pid
+
+# Lombok-generated files
+*.lombok.config
+
+# Security and sensitive files
+secrets/
+.env
+*.key
+*.crt
+
+# Database
+*.h2.db
+*.mv.db
+*.sqlite
+*.sqlite3
+
+# Test files
+.test/
